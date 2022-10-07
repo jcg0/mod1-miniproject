@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+ border-bottom: 3px solid green;
+}
+
+nav ul li a{
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  margin: auto;
+  display: inline;
+}
