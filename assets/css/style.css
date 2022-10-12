@@ -1,16 +1,159 @@
 body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
 
-nav {
- border-bottom: 3px solid green;
+header * {
+  display: inline;
 }
 
-nav ul li a{
+header {
+  background-color: #2E4053;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 5px solid #EAFAF1;
+  position: fixed;
   height: 50px;
-  width: 100px;
-  border: 1px solid black;
-  margin: auto;
+}
+
+a{
+  float: right;
+  border: none;
+  border-radius: 5px;
+  background-color: #FBC02D;
+  color: #34495E;
+  padding: 10px 25px;
+  text-align: center;
+  margin: 6px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2ECC71;
+  transition: .5s;
+}
+
+.footer {
+  color: #F2F4F4;
+  background-color: #2E4053;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  border-top: 3px solid #2E4053;
   display: inline;
+  align-items: center;
+  height: 50px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 6px;
+  padding: 5px;
+  width: 65%;
+}
+
+label {
+  right: 60.5%;
+  position: absolute;
+  float: left;
+  display: inline;
+  margin-left: 4%;
+}
+
+form {
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  padding: 30px;
+
+}
+
+div {
+  background-color: #607D8B;
+}
+
+.section-h2 {
+  padding-bottom: 25px;
+  
+}
+
+.section-form{
+  background-color: #EAFAF1;
+  margin-top: 10px;
+  padding: 25px;
+  border-top: 3px solid black;
+}
+
+.p-center {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.text-center {
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+
+.h1 {
+  position: relative;
+  bottom: -40px;
+}
+
+#container1 {
+  border-radius: 5px;
+  height: 375px;
+  width: 375px;
+  display: flex;
+  margin: auto;
+}
+
+#container2 {
+  border: 10px solid #ABEBC6;
+  border-radius: 5px;
+  height: 325px;
+  width: 325px;
+  display: flex;
+  margin: auto;
+}
+
+#container3 {
+  border: 8px solid #82E0AA;
+  border-radius: 5px;
+  height: 275px;
+  width: 275px;
+  display: flex;
+  margin: auto;
+}
+
+#container4 {
+  border: 6px solid #58D68D;
+  border-radius: 5px;
+  height: 225px;
+  width: 225px;
+  display: flex;
+  margin: auto; 
+}
+
+#container5 {
+  color: #F2F4F4;
+  border: 2px solid #2ECC71;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+button {
+  height: 50px;
+  width: 125px;
+  margin-bottom: -4%;
 }
